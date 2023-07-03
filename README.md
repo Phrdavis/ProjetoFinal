@@ -33,7 +33,7 @@ Nosso sistema disponibiliza 7 opções ao usuário:
 - Encerrar Programa;
 
 Todas as opções funcionam em conformidade umas com as outras, caso o aplicativo seja iniciado sem determinadas pastas, o código esta encarregado de cria-las logo após a primeira instrução.
-Durante a execução do código é possível observar que a pasta "Categorias.txt" sempre estará disponivel na visualização dos titulos por ser um arquivo de texto comum, porém não é possível exclui-la dentro do programa, e caso o usuário tente, um alerta aparece no console dizendo que o mesmo não possui permissão para excluir a pasta. Mas caso o arquivo seja apagado manualmente de dentro das pastas do projeto, o código cria denovo pasta em sua próxima inicialização.
+Durante a execução do código é possível observar que a pasta "Categorias.txt" sempre estará disponivel na visualização dos titulos por ser um arquivo de texto comum, porém não é possível exclui-la dentro do programa, e caso o usuário tente, um alerta aparece no console dizendo que o mesmo não possui permissão para excluir a pasta. Mas caso o arquivo seja apagado manualmente de dentro das pastas do projeto, o código cria denovo a pasta em sua próxima inicialização.
 
 O código, como dito anteriormente, funciona através de orientação a objetos e também por manipulação de arquivos de texto, ou seja, nosso projeto de biblioteca pessoal utiliza os arquivos salvos como "Banco de dados" para gravar seus conteudos mesmo após a reiniciação do programa, enquanto que os objetos (basicamente quase todos formados por ArrayLists) são encarregados de lidar com o tráfego das informações.
 
