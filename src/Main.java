@@ -38,7 +38,6 @@ public class Main {
 
         List<String> aux = new ArrayList<>();
 
-
         //Variavel para armazenar o caminho da pasta
         File pasta = new File("C:\\ProjetoFinal\\Arquivos");
 

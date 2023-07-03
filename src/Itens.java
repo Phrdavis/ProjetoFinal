@@ -36,4 +36,15 @@ public class Itens {
     public int getSize(){
         return this.conteudo.size();
     }
+
+    public boolean isArrayList (){
+        if (conteudo.getClass().getSimpleName().equals("ArrayList") &&
+                nota.getClass().getSimpleName().equals("ArrayList") &&
+                completo.getClass().getSimpleName().equals("ArrayList") &&
+                titulo.getClass().getSimpleName().equals("ArrayList")){
+            return true;
+        }else {
+            return false;
+        }
+    }
 }

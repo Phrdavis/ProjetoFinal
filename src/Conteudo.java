@@ -21,4 +21,12 @@ public class Conteudo {
     public int getSize(){
         return this.categoria.size();
     }
+
+    public boolean isArrayList (){
+        if (categoria.getClass().getSimpleName().equals("ArrayList")){
+            return true;
+        }else {
+            return false;
+        }
+    }
 }
