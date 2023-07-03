@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Itens {
+public class Itens extends Conteudo{
     private ArrayList<String> conteudo = new ArrayList<>();
     private ArrayList<Double> nota = new ArrayList<>();
     private ArrayList<Boolean> completo = new ArrayList<>();
@@ -21,6 +21,7 @@ public class Itens {
     }
 
     public void setConteudo(String conteudo, double nota, boolean completo, int titulo) {
+
         this.conteudo.add(conteudo);
         this.nota.add(nota);
         this.completo.add(completo);

@@ -14,5 +14,12 @@ public class Options {
     public int getSyze(){
         return op.size();
     }
+    public boolean isArrayList(){
+        if (op.getClass().getSimpleName().equals("ArrayList")){
+            return true;
+        }else {
+            return false;
+        }
+    }
 
 }
