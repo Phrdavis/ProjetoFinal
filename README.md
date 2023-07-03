@@ -15,7 +15,7 @@ CASO NÃO SEJA COLOCADO NO LUGAR ORIENTADO, O MESMO PODE GERAR MAL FUNCIONAMENTO
 
 Este projeto foi realizado pelos alunos:
 
-- Alexandre;
+- Alexandre Butzke;
 - Arthur Borges;
 - Davi Pinheiro de Souza.
 
