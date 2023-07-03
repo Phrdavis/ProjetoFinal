@@ -42,6 +42,9 @@ Durante a execução do código é possível observar que a pasta "Categorias.tx
 
 O código, como dito anteriormente, funciona através de orientação a objetos e também por manipulação de arquivos de texto, ou seja, nosso projeto de biblioteca pessoal utiliza os arquivos salvos como "Banco de dados" para gravar seus conteudos mesmo após a reiniciação do programa, enquanto que os objetos (basicamente quase todos formados por ArrayLists) são encarregados de lidar com o tráfego das informações.
 
+# Diagramas UML
+
+Em breve!
 
 # Informações
 
