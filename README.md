@@ -22,15 +22,20 @@ Este projeto foi realizado pelos alunos:
 O projeto tem como intuito simular uma biblioteca pessoal, na qual é possível adicionar pastas, criar categorias para cada pasta, além de adicionar e remover conteudos de dentro dos arquivos.
 Foi utilizado como referência o aplicativo "Notas" do sistema Android, que possui um sistema para adicionar novas pastas, criar categorias de pastas, adicionar e remover conteudo de dentro das pastas e também atribuir uma categoria para cada pasta. 
 
-Nosso sistema disponibiliza 7 opções ao usuário:
+Nosso sistema disponibiliza 7 opções principais + 2 opções secundarias ao usuário:
 
 - Adicionar um Titulo;
 - Adicionar Categoria;
 - Visualizar titulos;
+  
+    + Adicionar Conteudo;
+    + Excluir Conteudo;
+      
 - Visualizar Categorias;
 - Excluir Titulos;
 - Excluir Categorias;
 - Encerrar Programa;
+  
 
 Todas as opções funcionam em conformidade umas com as outras, caso o aplicativo seja iniciado sem determinadas pastas, o código esta encarregado de cria-las logo após a primeira instrução.
 Durante a execução do código é possível observar que a pasta "Categorias.txt" sempre estará disponivel na visualização dos titulos por ser um arquivo de texto comum, porém não é possível exclui-la dentro do programa, e caso o usuário tente, um alerta aparece no console dizendo que o mesmo não possui permissão para excluir a pasta. Mas caso o arquivo seja apagado manualmente de dentro das pastas do projeto, o código cria denovo a pasta em sua próxima inicialização.
