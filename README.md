@@ -46,7 +46,10 @@ O código, como dito anteriormente, funciona através de orientação a objetos 
 
 # Diagramas UML
 
-Em breve!
+A seguir esta o Diagrama UML das classes presentes no projeto, incluindo suas relações e metodos. Um arquivo com extensão para o programa STAR UML esta disponivel na pasta com o nome de Projeto_final_-_P.Orientada_completo.mdj
+
+![Diagrama UML Projeto Final](https://github.com/Phrdavis/ProjetoFinal/assets/105741181/fa09b02a-e6d4-437c-a060-022662db5b06)
+
 
 # Informações
 
