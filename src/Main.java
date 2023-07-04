@@ -33,11 +33,11 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         //Objeto para Opções do Menu principal
-        MenuOptions op = new MenuOptions();
+        Options op = new Options();
         //Objeto para Opções do Sub Menu de Visualização de Titulos
-        SubMenuOptions opTitulo = new SubMenuOptions();
+        Options opTitulo = new Options();
         //Objeto para Opções de Integrantes do Projeto
-        Integrantes opIntegrantes = new Integrantes();
+        Options opIntegrantes = new Options();
 
 
         //Objeto para criação de Categorias
